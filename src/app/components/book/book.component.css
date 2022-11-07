@@ -1,3 +1,15 @@
-h1 {
-  color: red;
+.book {
+  text-align: center;
+  padding: 30px;
+  width: 30vw;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+p .title {
+  font-size: 28px;
+}
+
+p {
+  font-size: 22px;
 }

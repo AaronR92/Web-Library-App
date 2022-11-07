@@ -1,10 +1,12 @@
 <header>
-  <h1>Home Library</h1>
   <nav>
-    <a>HOME</a>
-    <a>HOME</a>
+    <a>Home Library</a>
   </nav>
 </header>
-<div class="container">
-  <app-book [book]="books[0]"></app-book>
+<div class="container background">
+  <div class="books">
+    <app-book [book]="books[0]"></app-book>
+    <app-book [book]="books[1]"></app-book>
+    <app-book [book]="books[0]"></app-book>
+  </div>
 </div>

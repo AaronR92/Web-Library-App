@@ -10,15 +10,27 @@ nav {
 
 nav a {
   font-size: xxx-large;
-  font-family: 'Poor Story', cursive;
+  font-family: 'Open Sans', cursive;
   margin: 0 0 0 25px;
 }
 
 .container {
-  background: aliceblue;
+  margin: 0 auto;
   width: 90%;
   height: 800px;
-  margin: 0 auto;
+}
+
+.background {
+  background: aliceblue;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.books {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
