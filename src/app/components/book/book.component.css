@@ -1,12 +1,14 @@
 .book {
-  text-align: center;
   padding: 30px;
-  width: 30vw;
+  margin: 30px 20px;
+  flex: 1 40%;
   border: 1px solid gray;
-  border-radius: 10px;
+
+  text-align: center;
 }
 
 p .title {
+  margin-top: auto;
   font-size: 28px;
 }
 

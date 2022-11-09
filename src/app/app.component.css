@@ -27,10 +27,9 @@ nav a {
 }
 
 .books {
-  padding: 20px;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: auto auto;
-  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
