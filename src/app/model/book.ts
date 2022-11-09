@@ -4,7 +4,7 @@ export interface IBook {
   id: number
   name: string
   description: string
-  author: Object
+  author: IAuthor
   release_date: Date
   files: string[]
 }

@@ -4,9 +4,9 @@
   </nav>
 </header>
 <div class="container background">
-  <div class="books">
-    <app-book [book]="books[0]"></app-book>
-    <app-book [book]="books[1]"></app-book>
-    <app-book [book]="books[0]"></app-book>
-  </div>
+  <section class="books">
+    <app-book *ngFor="let book of books"
+              [book]="book">
+    </app-book>
+  </section>
 </div>
