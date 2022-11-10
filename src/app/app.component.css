@@ -9,9 +9,26 @@ nav {
 }
 
 nav a {
-  font-size: xxx-large;
+  font-size: 3vw;
   font-family: 'Open Sans', cursive;
   margin: 0 0 0 25px;
+}
+
+form {
+  margin: auto;
+}
+
+input {
+  border: 2px gray solid;
+  border-radius: 2vw;
+  padding-left: 10px;
+  min-width: 10vw;
+  color: #59544e;
+  font-size: medium;
+}
+
+input:focus {
+  outline: none;
 }
 
 .container {
@@ -19,9 +36,19 @@ nav a {
   width: 90%;
 }
 
+@media screen and (max-width: 1024px) {
+  nav a {
+    font-size: 6vw;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .container {
     border-radius: 6vw;
+  }
+
+  nav a {
+    font-size: 26px;
   }
 }
 
@@ -36,5 +63,11 @@ nav a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+p.nf {
+  font-family: "Open Sans";
+  font-size: xx-large;
+  margin: 10vh 10vw;
 }
 

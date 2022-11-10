@@ -1,10 +1,15 @@
 <header>
   <nav>
     <a>Home Library</a>
+    <form class="search">
+      <input type="search" 
+      placeholder="Enter a book" (search)="searchBooks(name.value)" #name="ngModel" ngModel name="name" required>
+    </form>
   </nav>
 </header>
 <div class="container background">
   <section class="books">
+    <p class="nf" *ngIf="books.length==0">Nothing found 😞</p>
     <app-book *ngFor="let book of books"
               [book]="book">
     </app-book>
