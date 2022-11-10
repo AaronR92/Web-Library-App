@@ -1,32 +1,55 @@
 .book {
   padding: 2vw 2vw 1vw 2vw;
-  margin: 4vw 1vw 0 1vw;
+  margin: 4vw 1vw 2vw 1vw;
   flex: 1 40%;
   border: 1px solid rgb(118, 116, 113);
-  border-radius: 16px;
-  width: 32vw;
-
+  border-radius: 2vw;
+  width: 23vw;
+  min-width: 150px;
   text-align: center;
+  transition: all .4s;
 }
 
-@media (max-width: 820px) {
+.book:hover {
+  background-color: #e3eaef;
+}
+
+@media screen and (max-width: 430px) {
   .book {
-    width: 70vw;
+    width: 60vw;
+    border-radius: 4vw;
   }
 }
 
-div .text {
+div.text {
   white-space: wrap;
   overflow: hidden;
-  text-overflow: "...";
-  height: 26vh;
 }
 
 p.title {
   margin-top: auto;
-  font-size: 26px;
+  font-size: x-large;
 }
 
 p {
-  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: large;
+}
+
+button.open {
+  margin: 2vh 2vw;
+  width: 7vw;
+  height: 5vh;
+  min-width: 60px;
+  min-height: 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  transition: all .4s;
+}
+
+button.open:hover {
+  background-color: gray;
+  color: #f0f0f0;
 }

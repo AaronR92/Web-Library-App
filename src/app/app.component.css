@@ -17,12 +17,17 @@ nav a {
 .container {
   margin: 0 auto;
   width: 90%;
-  height: 800px;
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    border-radius: 6vw;
+  }
 }
 
 .background {
   background: aliceblue;
-  border-radius: 30px;
+  border-radius: 3vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
